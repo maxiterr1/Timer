@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_globdecl",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_globdecl",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

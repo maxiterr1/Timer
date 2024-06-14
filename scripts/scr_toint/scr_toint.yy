@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_toint",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_toint",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
