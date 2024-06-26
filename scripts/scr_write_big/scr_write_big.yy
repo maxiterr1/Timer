@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_write_big",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_write_big",
+  "parent":{
+    "name":"Script",
+    "path":"folders/Script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

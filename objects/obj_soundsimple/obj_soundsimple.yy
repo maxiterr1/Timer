@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_timer",
+  "%Name":"obj_soundsimple",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_timer",
+  "name":"obj_soundsimple",
   "overriddenProperties":[],
   "parent":{
     "name":"Oggetti",
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sound",
+    "path":"sprites/spr_sound/spr_sound.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

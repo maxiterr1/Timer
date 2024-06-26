@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_timer",
+  "%Name":"obj_simpletxt",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_timer",
+  "name":"obj_simpletxt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Oggetti",
-    "path":"folders/Oggetti.yy",
+    "name":"Testo",
+    "path":"folders/Oggetti/Testo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_lansel",
+    "path":"sprites/spr_lansel/spr_lansel.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
