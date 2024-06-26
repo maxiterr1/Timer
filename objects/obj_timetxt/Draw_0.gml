@@ -1,1 +1,0 @@
-write(id, global.v[3] + global.v[2] + ":" + global.v[1] + global.v[0])

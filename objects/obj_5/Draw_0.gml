@@ -1,1 +1,1 @@
-write(id, 5)
+write(5)

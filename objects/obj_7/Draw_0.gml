@@ -1,1 +1,1 @@
-write(id, 7)
+write(7)

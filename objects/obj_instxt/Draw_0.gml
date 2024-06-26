@@ -1,11 +1,11 @@
 if global.lan == "it"{
 	if addtemp.count < 2
-		write(id, "Inserisci secondi")
+		write("Inserisci secondi")
 	else
-		write(id, "Inserisci minuti")
+		write("Inserisci minuti")
 }else{
 	if addtemp.count < 2
-		write(id, "Insert seconds")
+		write("Insert seconds")
 	else
-		write(id, "Insert minutes")
+		write("Insert minutes")
 }

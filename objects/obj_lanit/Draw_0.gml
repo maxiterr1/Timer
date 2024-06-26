@@ -1,1 +1,1 @@
-write(id, "Italiano")
+write("Italiano")

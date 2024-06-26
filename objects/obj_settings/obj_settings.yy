@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_start",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_settings",
+  "eventList":[],
   "managed":true,
-  "name":"obj_start",
+  "name":"obj_settings",
   "overriddenProperties":[],
   "parent":{
     "name":"Oggetti",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_startgrey",
-    "path":"sprites/spr_startgrey/spr_startgrey.yy",
+    "name":"spr_settings",
+    "path":"sprites/spr_settings/spr_settings.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -19,7 +19,10 @@ function addtemp(_n){
 		count++
 	}else if count == 1{
 		msg(toint(0, _n, 1))
-		if isec > 60{
+		if isec > 59{
+			global.v[0] = "9"
+			global.v[1] = "5"
+			count++
 			return
 		}
 		global.v[1] = global.v[0]
