@@ -1,8 +1,14 @@
+var vai = !global.pause
 if global.s < 30 && global.m == 0
 	draw_set_color(c_orange)
 else
 	draw_set_color(c_white)
+// Set caption pausa su obj_timer
 if global.m == 0 && global.s == 0{
+	if global.lan == "it"
+		window_set_caption("Tempo scaduto!")
+	else
+		window_set_caption("Time's up!")
 	if !exec{
 		alarm[0] = 50
 		exec = true
@@ -14,12 +20,21 @@ if global.m == 0 && global.s == 0{
 		write_big("00:00", 1.5, 1.5)
 }
 else{
-	if global.m >= 10 && global.s >= 10
+	if global.m >= 10 && global.s >= 10{
 		write_big(string(global.m) + ":" + string(global.s), 1.5, 1.5)
-	else if global.m < 10 && global.s >= 10
+		if vai
+		window_set_caption(string(global.m) + ":" + string(global.s))
+	}else if global.m < 10 && global.s >= 10{
 		write_big("0" + string(global.m) + ":" + string(global.s), 1.5, 1.5)
-	else if global.m >= 10 && global.s < 10
+		if vai
+		window_set_caption("0" + string(global.m) + ":" + string(global.s))
+	}else if global.m >= 10 && global.s < 10{
 		write_big(string(global.m) + ":0" + string(global.s), 1.5, 1.5)
-	else
+		if vai
+		window_set_caption(string(global.m) + ":0" + string(global.s))
+	}else{
 		write_big("0" + string(global.m) + ":0" + string(global.s), 1.5, 1.5)
+		if vai
+		window_set_caption("0" + string(global.m) + ":0" + string(global.s))
+	}
 }
