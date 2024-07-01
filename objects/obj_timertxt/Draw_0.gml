@@ -1,5 +1,7 @@
-if global.s < 30
+if global.s < 30 && global.m == 0
 	draw_set_color(c_orange)
+else
+	draw_set_color(c_white)
 if global.m == 0 && global.s == 0{
 	if !exec{
 		alarm[0] = 50

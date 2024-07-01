@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_settings",
+  "%Name":"obj_soundchange",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_settings",
+  "name":"obj_soundchange",
   "overriddenProperties":[],
   "parent":{
     "name":"Oggetti",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_settings",
-    "path":"sprites/spr_settings/spr_settings.yy",
+    "name":"spr_sound",
+    "path":"sprites/spr_sound/spr_sound.yy",
   },
   "spriteMaskId":null,
   "visible":true,
