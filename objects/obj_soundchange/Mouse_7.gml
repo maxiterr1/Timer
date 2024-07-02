@@ -4,9 +4,13 @@ if step == 0{
 			x = 190
 			y = 140
 		}
-		with obj_timeremtxt{
-			x = 190
-			y = 85
+		if global.left == true{
+			instance_destroy(obj_timeremtxt)
+		}else{
+			with obj_timeremtxt{
+				x = 190
+				y = 85
+			}
 		}
 		instance_destroy(obj_stop)
 		instance_create_layer(450, 160, "Instances", obj_sceglisuoneria)

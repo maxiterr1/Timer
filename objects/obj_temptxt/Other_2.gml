@@ -3,6 +3,7 @@ addtemp("c")
 ini_open("timer.ini")
 global.s = ini_read_real("Time", "s", 0)
 global.m = ini_read_real("Time", "m", 0)
+global.lan = ini_read_string("Lang", "lan", "it")
 ini_close()
 if global.s != 0 || global.m != 0{
 	ss = string(global.s)
@@ -16,10 +17,12 @@ if global.s != 0 || global.m != 0{
 		global.v[0] = string_char_at(ss, 2)
 	}
 	if string_length(ms) == 1{
-		global.v[3] = ms
-		global.v[4] = "0"
+		global.v[2] = ms
+		global.v[3] = "0"
 	}else{
-		global.v[4] = string_char_at(ms, 0)
-		global.v[3] = string_char_at(ms, 2)
+		global.v[3] = string_char_at(ms, 0)
+		global.v[2] = string_char_at(ms, 2)
 	}
+	global.left = true
+	room_goto(rm_timer)
 }

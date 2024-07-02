@@ -2,9 +2,13 @@ with obj_timertxt{
 	x = 480
 	y = 380
 }
-with obj_timeremtxt{
-	x = 438
-	y = 224
+if !instance_exists(obj_timeremtxt)
+	instance_create_layer(438, 224, "Instances", obj_timeremtxt)
+else{
+	with obj_timeremtxt{
+		x = 438
+		y = 224
+	}
 }
 instance_create_layer(64, 64, "Instances", obj_stop)
 with obj_stop{

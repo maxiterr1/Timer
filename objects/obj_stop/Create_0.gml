@@ -1,0 +1,1 @@
+wasleft = global.left

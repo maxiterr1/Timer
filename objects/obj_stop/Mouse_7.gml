@@ -1,3 +1,6 @@
 time_source_stop(global.timeract)
 draw_set_color(c_white)
+ini_open("timer.ini")
+ini_write_real("Time", "s", 0)
+ini_write_real("Time", "m", 0)
 room_goto(rm_ask)

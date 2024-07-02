@@ -8,3 +8,4 @@ global.s = 0
 global.mins = 0
 global.m = 0
 global.tone = mus_simple
+global.left = false

@@ -1,3 +1,7 @@
+if global.left{
+	click = 2
+	global.left = false
+}
 if click == 0
 	global.pause = true
 else if click == 1{
