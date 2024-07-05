@@ -18,7 +18,7 @@ obj_soundchange: Il tasto che ti fa modificare la suoneria durante il timer. Sce
 obj_soundhappy: Il tasto che fa suonare Happy quando lo clicchi. Si trova affianco a obj_happytxt. (rm_ask)
 obj_soundsimple: Il tasto che fa suonare Simple quando lo clicchi. Si trova affianco a obj_simpletxt. (rm_ask)
 obj_start: Il tasto che fa iniziare il timer dopo che hai inserito il tempo quando lo clicchi. (rm_ask)
-obj_stop: Il tasto che ti rimanda a rm_ask. Si trova in alto a sinistra e scompare quando il tempo scade. (rm_timer)
+obj_stop: Il tasto che quando lo clicchi ti rimanda a rm_ask e ferma il timer. Si trova in alto a sinistra e scompare quando il tempo scade. (rm_timer)
 obj_temptxt: Scrive i numeri che hai inserito sopra il tastierino e evidenzia in arancione la posizione del numero da inserire. (rm_ask)
 obj_timer: Non visibile, è l'oggetto che controlla il tempo del timer e fa suonare la suoneria scelta quando il tempo scade. (rm_timer)
 obj_timeremtxt: Scrive "Tempo rimanente", "In pausa", "Tempo scaduto!" e "Hai lasciato un timer in sospeso. Vuoi riprenderlo?". (rm_timer)
