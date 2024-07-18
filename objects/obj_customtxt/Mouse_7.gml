@@ -9,6 +9,7 @@ if !loaded{
 	global.custone = get_open_filename(".ogg", "*.ogg")
 	loaded = true
 	x = 900
+	instance_create_layer(850, y, "Instances", obj_soundcustom)
 }else{
 	global.tone = "cus"
 }
