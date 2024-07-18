@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Timer",
   "resources":[
@@ -47,6 +47,7 @@
     {"id":{"name":"obj_8","path":"objects/obj_8/obj_8.yy",},},
     {"id":{"name":"obj_9","path":"objects/obj_9/obj_9.yy",},},
     {"id":{"name":"obj_backspace","path":"objects/obj_backspace/obj_backspace.yy",},},
+    {"id":{"name":"obj_customtxt","path":"objects/obj_customtxt/obj_customtxt.yy",},},
     {"id":{"name":"obj_happytxt","path":"objects/obj_happytxt/obj_happytxt.yy",},},
     {"id":{"name":"obj_instxt","path":"objects/obj_instxt/obj_instxt.yy",},},
     {"id":{"name":"obj_lanen","path":"objects/obj_lanen/obj_lanen.yy",},},
@@ -60,6 +61,7 @@
     {"id":{"name":"obj_silenttxt","path":"objects/obj_silenttxt/obj_silenttxt.yy",},},
     {"id":{"name":"obj_simpletxt","path":"objects/obj_simpletxt/obj_simpletxt.yy",},},
     {"id":{"name":"obj_soundchange","path":"objects/obj_soundchange/obj_soundchange.yy",},},
+    {"id":{"name":"obj_soundcustom","path":"objects/obj_soundcustom/obj_soundcustom.yy",},},
     {"id":{"name":"obj_soundhappy","path":"objects/obj_soundhappy/obj_soundhappy.yy",},},
     {"id":{"name":"obj_soundsimple","path":"objects/obj_soundsimple/obj_soundsimple.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},

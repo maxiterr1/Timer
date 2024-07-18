@@ -21,15 +21,25 @@ if step == 0{
 			situa = 1
 		}
 		instance_create_layer(510, 205, "Instances", obj_simpletxt)
+		instance_create_layer(446, 205, "Instances", obj_soundsimple)
 		instance_create_layer(510, 245, "Instances", obj_happytxt)
+		instance_create_layer(446, 245, "Instances", obj_soundhappy)
 		instance_create_layer(510, 285, "Instances", obj_silenttxt)
 		with obj_simpletxt{
 			image_xscale = 0.4
 			image_yscale = 0.5
 		}
+		with obj_soundsimple{
+			image_xscale = 0.05
+			image_yscale = 0.05
+		}
 		with obj_happytxt{
 			image_xscale = 0.4
 			image_yscale = 0.5
+		}
+		with obj_soundhappy{
+			image_xscale = 0.05
+			image_yscale = 0.05
 		}
 		with obj_silenttxt{
 			image_xscale = 0.5

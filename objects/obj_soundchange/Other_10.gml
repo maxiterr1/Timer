@@ -20,4 +20,6 @@ instance_destroy(obj_lansel)
 instance_destroy(obj_simpletxt)
 instance_destroy(obj_happytxt)
 instance_destroy(obj_silenttxt)
+instance_destroy(obj_soundsimple)
+instance_destroy(obj_soundhappy)
 step = 0
