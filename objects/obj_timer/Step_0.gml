@@ -12,9 +12,12 @@ if global.pause{
 	waspause = false
 }
 if global.m == 0 && global.s == 0{
-	if global.tone != "none"{
+	if global.tone != "none" && global.tone != "cus"{
 		if !audio_is_playing(global.tone){
 			audio_play_sound(global.tone, 1, true)
 		}
+	}else if global.tone == "cus"{
+		if !audio_is_playing(ring)
+			audio_play_sound(ring, 1, false)
 	}
 }

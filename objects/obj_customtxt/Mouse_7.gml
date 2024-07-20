@@ -6,15 +6,10 @@ if !loaded{
 		if show_question("Note: Only OGG files are supported.\nIf you want to load a different type of audio file, like MP3, first convert it in MP3.\nDo you need help?")
 			show_message("Try to go to the internet and search \"MP3 to OGG\" if the file is an MP3.\nElse, if it is for example a WAV, search \"WAV to OGG\".")
 	}
-	global.custone = get_open_filename(".ogg", "*.ogg")
+	global.custone = get_open_filename("*.ogg", "*.ogg")
 	if global.custone != ""{
 		loaded = true
-		x = 900
-		instance_create_layer(850, y, "Instances", obj_soundcustom)
-		with obj_soundcustom{
-			image_xscale = 0.05
-			image_yscale = 0.05
-		}
+		instance_create_layer(x - 50, y, "Instances", obj_soundcustom)
 	}
 }else{
 	global.tone = "cus"

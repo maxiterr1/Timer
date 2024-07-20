@@ -15,3 +15,5 @@ global.timeract = time_source_create(time_source_global, 1, time_source_units_se
 }, [], seccalc())
 
 time_source_start(global.timeract)
+if global.tone == "cus"
+	ring = audio_create_stream(global.custone)

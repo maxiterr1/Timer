@@ -15,9 +15,14 @@ if situa == 0{
 			x = 928
 			image_xscale = 0.4
 		}else if global.tone == "cus"{
-			x = 886
 			y = 224
-			image_xscale = 0.5
+			if global.lan == "it"{
+				image_xscale = 0.7
+				x = 825
+			}else{
+				image_xscale = 0.4
+				x = 928
+			}
 		}else if global.tone == "none"{
 			x = 886
 			y = obj_silenttxt.y

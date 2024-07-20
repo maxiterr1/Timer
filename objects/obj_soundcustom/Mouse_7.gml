@@ -1,4 +1,2 @@
-if audio != 0{
-	audio_play_sound(audio, 1, false)
-	hasplayed = true
-}
+audio_stop_all()
+audio_play_sound(audio, 1, false)
