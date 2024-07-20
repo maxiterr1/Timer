@@ -20,6 +20,10 @@ instance_destroy(obj_lansel)
 instance_destroy(obj_simpletxt)
 instance_destroy(obj_happytxt)
 instance_destroy(obj_silenttxt)
+if instance_exists(obj_customtxt){
+	instance_destroy(obj_customtxt)
+	instance_destroy(obj_soundcustom)
+}
 instance_destroy(obj_soundsimple)
 instance_destroy(obj_soundhappy)
 step = 0

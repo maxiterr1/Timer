@@ -31,17 +31,18 @@ if situa == 0{
 	}
 }
 if situa == 1{
+	x = 510
 	if global.tone == mus_simple{
-		x = 510
 		y = 205
 		image_xscale = 0.4
 	}else if global.tone == mus_happy{
-		x = 510
 		y = 245
 		image_xscale = 0.4
-	}else{
-		x = 510
+	}else if global.tone == "cus"{
 		y = 285
-		image_xscale = 0.45
+		image_xscale = 0.7
+	}else if global.tone == "none"{
+		x = obj_silenttxt.x
+		y = 325
 	}
 }
