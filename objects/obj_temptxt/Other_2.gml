@@ -4,6 +4,7 @@ ini_open("timer.ini")
 global.s = ini_read_real("Time", "s", 0)
 global.m = ini_read_real("Time", "m", 0)
 global.lan = ini_read_string("Lang", "lan", "it")
+global.custone = ini_read_string("Custom", "dir", "")
 ini_close()
 if global.s != 0 || global.m != 0{
 	ss = string(global.s)

@@ -7,10 +7,6 @@ if !loaded{
 			show_message("Try to go to the internet and search \"MP3 to OGG\" if the file is an MP3.\nElse, if it is for example a WAV, search \"WAV to OGG\".")
 	}
 	global.custone = get_open_filename("*.ogg", "*.ogg")
-	if global.custone != ""{
-		loaded = true
-		instance_create_layer(x - 50, y, "Instances", obj_soundcustom)
-	}
 }else{
 	global.tone = "cus"
 }
