@@ -1,5 +1,10 @@
 script_execute(scr_globdecl)
 addtemp("c")
+if !file_exists("timer.ini"){
+	var ini = file_text_open_write("timer.ini")
+	file_text_write_string(ini, ";test")
+	file_text_close(ini)
+}
 ini_open("timer.ini")
 global.s = ini_read_real("Time", "s", 0)
 global.m = ini_read_real("Time", "m", 0)
