@@ -15,7 +15,10 @@
     "name":"Oggetti",
     "path":"folders/Oggetti.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_soundparent",
+    "path":"objects/obj_soundparent/obj_soundparent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

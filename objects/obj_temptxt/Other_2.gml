@@ -1,16 +1,27 @@
 script_execute(scr_globdecl)
 addtemp("c")
-if !file_exists("timer.ini"){
-	var ini = file_text_open_write("timer.ini")
-	file_text_write_string(ini, ";test")
-	file_text_close(ini)
-}
 ini_open("timer.ini")
 global.s = ini_read_real("Time", "s", 0)
 global.m = ini_read_real("Time", "m", 0)
 global.lan = ini_read_string("Lang", "lan", "it")
 global.custone = ini_read_string("Custom", "dir", "")
+var tone = ini_read_string("Tone", "which", "mus_simple")
+if tone == "cus"{
+	if !file_exists(global.custone)
+		global.tone = mus_simple
+	else
+		global.tone = tone
+}else if tone == "mus_simple"
+	global.tone = mus_simple
+else if tone == "mus_happy"
+	global.tone = mus_happy
+else
+	global.tone = tone
 ini_close()
+if global.custone != ""{
+	if !file_exists(global.custone)
+		global.custone = ""
+}
 if global.s != 0 || global.m != 0{
 	ss = string(global.s)
 	ms = string(global.m)

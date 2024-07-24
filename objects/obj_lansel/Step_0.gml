@@ -42,7 +42,10 @@ if situa == 1{
 		y = 285
 		image_xscale = 0.7
 	}else if global.tone == "none"{
-		x = obj_silenttxt.x
-		y = 325
+		image_xscale = 0.7
+		if global.custone != ""
+			y = 325
+		else
+			y = 285
 	}
 }

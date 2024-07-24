@@ -64,6 +64,7 @@
     {"id":{"name":"obj_soundchange","path":"objects/obj_soundchange/obj_soundchange.yy",},},
     {"id":{"name":"obj_soundcustom","path":"objects/obj_soundcustom/obj_soundcustom.yy",},},
     {"id":{"name":"obj_soundhappy","path":"objects/obj_soundhappy/obj_soundhappy.yy",},},
+    {"id":{"name":"obj_soundparent","path":"objects/obj_soundparent/obj_soundparent.yy",},},
     {"id":{"name":"obj_soundsimple","path":"objects/obj_soundsimple/obj_soundsimple.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_stop","path":"objects/obj_stop/obj_stop.yy",},},
