@@ -19,6 +19,10 @@ if room == rm_ask{
 		}else{
 			x = 864
 		}
+		if instance_exists(obj_soundcustom)
+			instance_destroy(obj_soundcustom)
+		if instance_exists(obj_edit)
+			instance_destroy(obj_edit)
 	}
 }
 

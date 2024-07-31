@@ -9,3 +9,4 @@ if audio_is_playing(audio)
 	isplay = true
 else
 	isplay = false
+audioexist()

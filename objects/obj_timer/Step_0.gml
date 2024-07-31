@@ -1,11 +1,9 @@
 if global.pause{
 	time_source_pause(global.timeract)
-	if global.pause{
-		if global.lan == "it"
-			window_set_caption("In pausa")
-		else
-			window_set_caption("Paused")
-	}
+	if global.lan == "it"
+		window_set_caption("In pausa")
+	else
+		window_set_caption("Paused")
 	waspause = true
 }else if waspause == true{
 	time_source_resume(global.timeract)
@@ -21,3 +19,5 @@ if global.m == 0 && global.s == 0{
 			audio_play_sound(ring, 1, false)
 	}
 }
+if global.custone != ""
+	audioexist()

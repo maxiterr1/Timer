@@ -75,6 +75,7 @@
     {"id":{"name":"rm_ask","path":"rooms/rm_ask/rm_ask.yy",},},
     {"id":{"name":"rm_timer","path":"rooms/rm_timer/rm_timer.yy",},},
     {"id":{"name":"scr_addtemp","path":"scripts/scr_addtemp/scr_addtemp.yy",},},
+    {"id":{"name":"scr_audioexist","path":"scripts/scr_audioexist/scr_audioexist.yy",},},
     {"id":{"name":"scr_globdecl","path":"scripts/scr_globdecl/scr_globdecl.yy",},},
     {"id":{"name":"scr_msg","path":"scripts/scr_msg/scr_msg.yy",},},
     {"id":{"name":"scr_seccalc","path":"scripts/scr_seccalc/scr_seccalc.yy",},},
