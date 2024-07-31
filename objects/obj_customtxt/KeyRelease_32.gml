@@ -1,1 +1,1 @@
-show_message("/"+global.custone+"/")
+show_message(global.custone)

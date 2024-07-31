@@ -11,6 +11,10 @@ if global.pause{
 }
 if global.m == 0 && global.s == 0{
 	if global.tone != "none" && global.tone != "cus"{
+		if !stopped{
+			audio_stop_all()
+			stopped = true
+		}
 		if !audio_is_playing(global.tone){
 			audio_play_sound(global.tone, 1, true)
 		}
