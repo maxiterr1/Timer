@@ -9,7 +9,7 @@ if global.pause{
 	time_source_resume(global.timeract)
 	waspause = false
 }
-if global.m == 0 && global.s == 0{
+if global.timerem == 0{
 	if global.tone != "none" && global.tone != "cus"{
 		if !stopped{
 			audio_stop_all()

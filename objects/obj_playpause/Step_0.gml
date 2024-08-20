@@ -1,4 +1,4 @@
-if global.m == 0 && global.s == 0{
+if global.timerem == 0{
 	sprite_index = spr_home
 	image_xscale = 0.3
 	image_yscale = 0.3

@@ -5,7 +5,7 @@ if obj_settings.down == 2{
 		instance_destroy()
 	}
 }
-if global.m == 0 && global.s == 0{
+if global.timerem == 0{
 	event_user(0)
 	obj_settings.down = 3
 }

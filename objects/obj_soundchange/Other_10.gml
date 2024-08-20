@@ -1,6 +1,6 @@
 with obj_timertxt{
 	x = 480
-	y = 380
+	y = 384
 }
 if !instance_exists(obj_timeremtxt)
 	instance_create_layer(438, 224, "Instances", obj_timeremtxt)

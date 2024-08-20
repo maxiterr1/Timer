@@ -1,4 +1,4 @@
-if global.m == 0 && global.s == 0
+if global.timerem == 0
 	instance_destroy()
 if wasleft{
 	for(var i = 0; i <= 3; i++){

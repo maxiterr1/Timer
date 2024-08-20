@@ -13,7 +13,7 @@ if down != 0
 	sprite_index = spr_settings_down
 else
 	sprite_index = spr_settings
-if global.m == 0 && global.s == 0{
+if global.timerem == 0{
 	if !instance_exists(obj_soundchange)
 		instance_destroy()
 }

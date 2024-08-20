@@ -27,7 +27,7 @@ if global.left == true{
 			}
 		}
 	}else{
-		if global.m != 0 || global.s != 0{
+		if global.timerem != 0{
 			if global.lan == "it"
 				write("Tempo rimanente")
 			else{

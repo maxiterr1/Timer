@@ -1,10 +1,10 @@
 var vai = !global.pause
-if global.s < 30 && global.m == 0
+if global.timerem < 30
 	draw_set_color(c_orange)
 else
 	draw_set_color(c_white)
 // Set caption pausa su obj_timer
-if global.m == 0 && global.s == 0{
+if global.timerem == 0{
 	if global.lan == "it"
 		window_set_caption("Tempo scaduto!")
 	else
