@@ -1,11 +1,5 @@
-if global.lan == "it"{
-	if addtemp.count < 2
-		write("Inserisci secondi")
-	else
-		write("Inserisci minuti")
-}else{
-	if addtemp.count < 2
-		write("Insert seconds")
-	else
-		write("Insert minutes")
-}
+if addtemp.count < 2
+	write(global.lan == "it" ? "Inserisci secondi" : "Insert seconds")
+else
+	write(global.lan == "it" ? "Inserisci minuti" : "Insert minutes")
+draw_text_transformed(834, 32, global.lan == "it" ? "Scegli la suoneria" : "Choose the ringtone", 0.8, 0.8, 0)

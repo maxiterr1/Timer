@@ -25,3 +25,4 @@ if global.timerem == 0{
 }
 if global.custone != ""
 	audioexist()
+	

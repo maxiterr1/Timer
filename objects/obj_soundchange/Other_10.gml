@@ -15,7 +15,6 @@ with obj_stop{
 	image_xscale = 0.3
 	image_yscale = 0.3
 }
-instance_destroy(obj_sceglisuoneria)
 instance_destroy(obj_lansel)
 instance_destroy(obj_simpletxt)
 instance_destroy(obj_happytxt)

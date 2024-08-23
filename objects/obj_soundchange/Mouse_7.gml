@@ -13,7 +13,6 @@ if step == 0{
 			}
 		}
 		instance_destroy(obj_stop)
-		instance_create_layer(450, 160, "Instances", obj_sceglisuoneria)
 		instance_create_layer(0, 200, "Instances", obj_lansel)
 		with obj_lansel{
 			image_xscale = 0.4

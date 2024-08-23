@@ -9,7 +9,7 @@ if global.timerem == 0{
 	event_user(0)
 	obj_settings.down = 3
 }
-if instance_exists(obj_sceglisuoneria)
+if instance_exists(obj_lansel)
 	sprite_index = spr_sound_or
 else
 	sprite_index = spr_sound
