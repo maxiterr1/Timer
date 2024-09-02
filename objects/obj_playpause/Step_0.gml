@@ -5,8 +5,8 @@ if global.timerem == 0{
 	click = 1
 }else if global.pause{
 	sprite_index = spr_startok
-	image_xscale = 0.1
-	image_yscale = 0.1
+	image_xscale = 0.6
+	image_yscale = 0.6
 	click = 2
 }else if !global.pause{
 	sprite_index = spr_pause
