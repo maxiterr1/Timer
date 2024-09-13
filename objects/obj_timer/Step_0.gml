@@ -4,7 +4,7 @@ if global.pause{
 		window_set_caption("In pausa")
 	else
 		window_set_caption("Paused")
-	if !instance_exists(obj_restart)
+	if !instance_exists(obj_restart) && !global.left
 		instance_create_layer(60, 224, "Instances", obj_restart)
 	waspause = true
 }else if waspause == true{

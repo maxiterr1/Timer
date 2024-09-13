@@ -1,2 +1,2 @@
-if global.pause == false
+if !global.pause
 	instance_destroy()

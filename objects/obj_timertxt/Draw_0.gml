@@ -18,23 +18,26 @@ if global.timerem == 0{
 	}
 	else
 		write_big("00:00", 1.5, 1.5)
-}
-else{
+}else{
 	if global.m >= 10 && global.s >= 10{
-		write_big(string(global.m) + ":" + string(global.s), 1.5, 1.5)
+		global.timestr = string(global.m) + ":" + string(global.s)
+		write_big(global.timestr, 1.5, 1.5)
 		if vai
-		window_set_caption(string(global.m) + ":" + string(global.s))
+		window_set_caption(global.timestr)
 	}else if global.m < 10 && global.s >= 10{
-		write_big("0" + string(global.m) + ":" + string(global.s), 1.5, 1.5)
+		global.timestr = "0" + string(global.m) + ":" + string(global.s)
+		write_big(global.timestr, 1.5, 1.5)
 		if vai
-		window_set_caption("0" + string(global.m) + ":" + string(global.s))
+		window_set_caption(global.timestr)
 	}else if global.m >= 10 && global.s < 10{
-		write_big(string(global.m) + ":0" + string(global.s), 1.5, 1.5)
+		global.timestr = string(global.m) + ":0" + string(global.s)
+		write_big(global.timestr, 1.5, 1.5)
 		if vai
-		window_set_caption(string(global.m) + ":0" + string(global.s))
+		window_set_caption(global.timestr)
 	}else{
-		write_big("0" + string(global.m) + ":0" + string(global.s), 1.5, 1.5)
+		global.timestr = "0" + string(global.m) + ":0" + string(global.s)
+		write_big(global.timestr, 1.5, 1.5)
 		if vai
-		window_set_caption("0" + string(global.m) + ":0" + string(global.s))
+		window_set_caption(global.timestr)
 	}
 }
