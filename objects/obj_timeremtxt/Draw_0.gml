@@ -28,17 +28,20 @@ if global.left == true{
 		}
 	}else{
 		if global.timerem != 0{
-			if global.lan == "it"
+			/*if global.lan == "it"
 				write("Tempo rimanente")
 			else{
 				write("Time remaining")
-			}
+			}*/
+			write(global.lan == "it" ? "Tempo rimanente" : "Time remaining")
 		}else{
 			draw_set_color(c_red)
-			if global.lan == "it"
+			if global.lan == "it"{
 				write("Tempo scaduto!")
-			else{
+				x = 438
+			}else{
 				write("Time's up!")
+				x = 465
 			}
 		}
 	}
