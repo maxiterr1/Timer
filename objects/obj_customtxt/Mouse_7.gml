@@ -6,9 +6,15 @@ if !loaded{
 		if show_question("Note: Only OGG files are supported.\nIf you want to load a different type of audio file, like MP3, first convert it in OGG.\nDo you need help?")
 			show_message("Try to go to the internet and search \"MP3 to OGG\" if the file is an MP3.\nElse, if it is for example a WAV, search \"WAV to OGG\".")
 	}
-	global.custone = get_open_filename("*.ogg", "*.ogg")
-	if global.custone != ""
+	var custone = get_open_filename("*.ogg", "*.ogg")
+	msg(custone)
+	if custone != ""{
 		global.tone = "cus"
+		msg("ma che davero")
+		global.custone = custone
+	}else{
+		msg("lesgoski")
+	}
 }else{
 	global.tone = "cus"
 }

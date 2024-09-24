@@ -1,5 +1,5 @@
 event_inherited()
-if global.custone != "*.ogg"
+if global.custone != ""
 	audio = audio_create_stream(global.custone)
 exaudio = global.custone
 image_xscale = 0.05

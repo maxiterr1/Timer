@@ -1,6 +1,8 @@
 if room == rm_ask{
 	if global.custone != ""
 		loaded = true
+	else
+		loaded = false
 	if loaded{
 		if global.lan == "it"{
 			x = 850
