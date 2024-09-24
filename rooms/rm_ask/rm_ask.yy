@@ -30,6 +30,7 @@
     {"name":"inst_37A8EF4F","path":"rooms/rm_ask/rm_ask.yy",},
     {"name":"inst_5E20C98F","path":"rooms/rm_ask/rm_ask.yy",},
     {"name":"inst_6D4EAF8","path":"rooms/rm_ask/rm_ask.yy",},
+    {"name":"inst_6FB9BF40","path":"rooms/rm_ask/rm_ask.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -58,6 +59,7 @@
         {"$GMRInstance":"v1","%Name":"inst_37A8EF4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37A8EF4F","objectId":{"name":"obj_soundhappy","path":"objects/obj_soundhappy/obj_soundhappy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.05,"scaleY":0.05,"x":896.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_5E20C98F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E20C98F","objectId":{"name":"obj_silenttxt","path":"objects/obj_silenttxt/obj_silenttxt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.3846154,"scaleY":0.5,"x":896.0,"y":288.0,},
         {"$GMRInstance":"v1","%Name":"inst_6D4EAF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D4EAF8","objectId":{"name":"obj_customtxt","path":"objects/obj_customtxt/obj_customtxt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6637363,"scaleY":0.5,"x":832.0,"y":224.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6FB9BF40","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6FB9BF40","objectId":{"name":"obj_keypressask","path":"objects/obj_keypressask/obj_keypressask.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":-64.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

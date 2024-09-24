@@ -14,6 +14,8 @@ if global.left == true{
 	}
 	draw_set_color(c_white)
 	if global.pause{
+		if instance_exists(obj_stop)
+			x = 473
 		draw_set_color(c_orange)
 		if !exec{
 			alarm[0] = 70
@@ -28,11 +30,6 @@ if global.left == true{
 		}
 	}else{
 		if global.timerem != 0{
-			/*if global.lan == "it"
-				write("Tempo rimanente")
-			else{
-				write("Time remaining")
-			}*/
 			write(global.lan == "it" ? "Tempo rimanente" : "Time remaining")
 		}else{
 			draw_set_color(c_red)

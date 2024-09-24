@@ -36,6 +36,7 @@
   "name":"Timer",
   "resources":[
     {"id":{"name":"fnt_font","path":"fonts/fnt_font/fnt_font.yy",},},
+    {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"obj_0","path":"objects/obj_0/obj_0.yy",},},
     {"id":{"name":"obj_1","path":"objects/obj_1/obj_1.yy",},},
     {"id":{"name":"obj_2","path":"objects/obj_2/obj_2.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"obj_customtxt","path":"objects/obj_customtxt/obj_customtxt.yy",},},
     {"id":{"name":"obj_edit","path":"objects/obj_edit/obj_edit.yy",},},
     {"id":{"name":"obj_happytxt","path":"objects/obj_happytxt/obj_happytxt.yy",},},
+    {"id":{"name":"obj_keypressask","path":"objects/obj_keypressask/obj_keypressask.yy",},},
     {"id":{"name":"obj_lanen","path":"objects/obj_lanen/obj_lanen.yy",},},
     {"id":{"name":"obj_lang","path":"objects/obj_lang/obj_lang.yy",},},
     {"id":{"name":"obj_lanit","path":"objects/obj_lanit/obj_lanit.yy",},},

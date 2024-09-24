@@ -1,8 +1,8 @@
 if room == rm_ask{
-	if global.custone != ""
+/*	if file_exists(global.custone)
 		loaded = true
 	else
-		loaded = false
+		loaded = false*/
 	if loaded{
 		if global.lan == "it"{
 			x = 850

@@ -7,13 +7,14 @@ if !loaded{
 			show_message("Try to go to the internet and search \"MP3 to OGG\" if the file is an MP3.\nElse, if it is for example a WAV, search \"WAV to OGG\".")
 	}
 	var custone = get_open_filename("*.ogg", "*.ogg")
-	msg(custone)
-	if custone != ""{
+	if file_exists(custone){
 		global.tone = "cus"
-		msg("ma che davero")
 		global.custone = custone
+		msg("ok")
+		loaded = true
 	}else{
-		msg("lesgoski")
+		msg("j")
+		loaded = false
 	}
 }else{
 	global.tone = "cus"
