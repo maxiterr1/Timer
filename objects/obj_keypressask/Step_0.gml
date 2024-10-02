@@ -21,6 +21,4 @@ if keyboard_check_released(vk_anykey){
 		addtemp("8")
 	else if key = vk_numpad9 || key == 9
 		addtemp("9")
-	else if key = vk_backspace
-		addtemp("e")
 }

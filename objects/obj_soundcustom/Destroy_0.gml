@@ -1,2 +1,3 @@
-audio = audio_destroy_stream(audio)
+if global.custone != "*.ogg"
+	audio = audio_destroy_stream(audio)
 msg("ind des")

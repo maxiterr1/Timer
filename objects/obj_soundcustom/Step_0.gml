@@ -2,6 +2,7 @@ x = obj_customtxt.x - 64
 event_inherited()
 if exaudio != global.custone && file_exists(global.custone){
 	audio = audio_destroy_stream(audio)
+	msg(global.custone)
 	audio = audio_create_stream(global.custone)
 	exaudio = global.custone
 }

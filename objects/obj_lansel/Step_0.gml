@@ -31,7 +31,7 @@ if situa == 0{
 	}
 }
 if situa == 1{
-	x = 510
+	x = 500
 	if global.tone == mus_simple{
 		y = 205
 		image_xscale = 0.4
@@ -42,7 +42,7 @@ if situa == 1{
 		y = 285
 		image_xscale = 0.7
 	}else if global.tone == "none"{
-		image_xscale = 0.7
+		image_xscale = 0.5
 		if global.custone != ""
 			y = 325
 		else

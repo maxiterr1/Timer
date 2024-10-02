@@ -26,5 +26,7 @@ if room == rm_ask{
 		if instance_exists(obj_edit)
 			instance_destroy(obj_edit)
 	}
+	if file_exists(global.custone)
+		loaded = true
 }
 
