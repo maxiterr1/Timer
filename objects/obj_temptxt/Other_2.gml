@@ -5,6 +5,9 @@ global.s = ini_read_real("Time", "s", 0)
 global.m = ini_read_real("Time", "m", 0)
 global.lan = ini_read_string("Lang", "lan", "it")
 global.custone = ini_read_string("Custom", "dir", "")
+//ATTENZIONE!! v[4] è temporanea e contiene progressx. Ho scelto di
+//assegnarla a v[] così posso fare array_pop() e liberare memoria
+global.v[4] = ini_read_real("Volume", "progresso", round(243 / 2))
 var tone = ini_read_string("Tone", "which", "mus_simple")
 if tone == "cus"{
 	if !file_exists(global.custone)
@@ -17,7 +20,9 @@ else if tone == "mus_happy"
 	global.tone = mus_happy
 else
 	global.tone = tone
+	
 ini_close()
+
 if global.custone != ""{
 	if !file_exists(global.custone)
 		global.custone = ""

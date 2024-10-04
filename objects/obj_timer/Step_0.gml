@@ -26,6 +26,9 @@ if global.timerem == 0{
 		if !audio_is_playing(ring)
 			audio_play_sound(ring, 1, false)
 	}
+	if keyboard_check_pressed(vk_space){
+		instance_create_layer(200, 250, "Instances", obj_volumebar)
+	}
 }
 if global.custone != ""
 	audioexist()
