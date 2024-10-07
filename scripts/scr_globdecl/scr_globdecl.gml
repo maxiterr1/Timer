@@ -1,7 +1,6 @@
 for (var i = 0; i <= 3; i++){
 	global.v[i] = "0"
 }
-global.v[4] = 0
 global.lan = "it"
 global.timerem = seccalc()
 global.pause = false
