@@ -10,3 +10,4 @@ global.tone = mus_simple
 global.left = false
 global.custone = ""
 global.timestr = ""
+global.progress = 0

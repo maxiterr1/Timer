@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temptxt",
+  "%Name":"obj_ask_start_end_game",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":3,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_temptxt",
+  "name":"obj_ask_start_end_game",
   "overriddenProperties":[],
   "parent":{
-    "name":"Testo",
-    "path":"folders/Oggetti/Testo.yy",
+    "name":"Oggetti",
+    "path":"folders/Oggetti.yy",
   },
   "parentObjectId":null,
   "persistent":false,

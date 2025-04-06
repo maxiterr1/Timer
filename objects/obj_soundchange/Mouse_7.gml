@@ -23,6 +23,7 @@ if step == 0{
 		instance_create_layer(446, 205, "Instances", obj_soundsimple)
 		instance_create_layer(510, 245, "Instances", obj_happytxt)
 		instance_create_layer(446, 245, "Instances", obj_soundhappy)
+		instance_create_layer(510, 507, "Instances", obj_volumebar)
 		if global.custone != ""{
 			instance_create_layer(510, 285, "Instances", obj_customtxt)
 			instance_create_layer(446, 285, "Instances", obj_soundcustom)

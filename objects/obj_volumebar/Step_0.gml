@@ -1,14 +1,14 @@
+progressx = global.progress + x
 if mouse_check_button(mb_left){
-		if mouse_x >= x + progress_width / 2 + 3 && mouse_x <= x + width - progress_width / 2 && mouse_y >= y && mouse_y <= y + height
-			clicking = true
-		else
-			clicking = false
+	clicking = mouse_x >= x + progress_width / 2 + 3 && mouse_x <= x + width - progress_width / 2 && mouse_y >= y && mouse_y <= y + height
 }else{
 	clicking = false
 }
 if clicking
 	progressx = mouse_x - progress_width / 1.5
 
+
+global.progress = progressx - x
 //Calcolo della percentuale
 volume_percent = abs(round(((x - progressx) * 100) / 243)) 
 

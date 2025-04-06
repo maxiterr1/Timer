@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Timer",
   "resources":[
@@ -47,6 +47,7 @@
     {"id":{"name":"obj_7","path":"objects/obj_7/obj_7.yy",},},
     {"id":{"name":"obj_8","path":"objects/obj_8/obj_8.yy",},},
     {"id":{"name":"obj_9","path":"objects/obj_9/obj_9.yy",},},
+    {"id":{"name":"obj_ask_start_end_game","path":"objects/obj_ask_start_end_game/obj_ask_start_end_game.yy",},},
     {"id":{"name":"obj_asktext","path":"objects/obj_asktext/obj_asktext.yy",},},
     {"id":{"name":"obj_backspace","path":"objects/obj_backspace/obj_backspace.yy",},},
     {"id":{"name":"obj_customtxt","path":"objects/obj_customtxt/obj_customtxt.yy",},},
