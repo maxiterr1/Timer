@@ -1,4 +1,4 @@
-if keyboard_check_released(vk_anykey){
+if keyboard_check_pressed(vk_anykey){
 	var key = keyboard_lastchar
 
 	if key = vk_numpad0 || key == 0

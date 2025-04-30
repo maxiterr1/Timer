@@ -18,8 +18,8 @@ if global.gamestart {
 	global.s = ini_read_real("Time", "s", 0)
 	global.m = ini_read_real("Time", "m", 0)
 	global.lan = ini_read_string("Lang", "lan", "it")
-	global.progress = ini_read_real("Volume", "progresso", 0)
-	msg("2 " + string(global.progress))
+	global.volume_percent = ini_read_real("Volume", "progresso", 0)
+	msg("2 " + string(global.volume_percent))
 	global.custone = ini_read_string("Custom", "dir", "")
 	var tone = ini_read_string("Tone", "which", "mus_simple")
 	if tone == "cus"{

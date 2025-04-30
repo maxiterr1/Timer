@@ -1,7 +1,7 @@
 var vol = obj_volumebar
 ini_open("timer.ini")
 ini_write_string("Lang", "lan", global.lan)
-ini_write_real("Volume", "progresso", global.progress)
+ini_write_real("Volume", "progresso", global.volume_percent)
 if global.custone != ""
 	ini_write_string("Custom", "dir", global.custone)
 if is_string(global.tone)
