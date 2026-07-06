@@ -57,3 +57,5 @@ Temporary Items
 # GameMaker temporary files
 *.resource_order
 *.old
+timer-compressed.zip
+timer-installer.exe

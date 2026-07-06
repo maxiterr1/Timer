@@ -3,17 +3,28 @@ function addtemp(_n){
 	if _n == "c"
 		return
 	if _n == "e"{
-		if count == 1 || count == 3{
-			global.v[count] = "0"
-		}else if count != 0{
-			global.v[count - 2] = "0"
+		switch count {
+			case 1:
+				global.v[3] = "0"
+				count--
+				break
+			case 2:
+				global.v[2] = "0"
+				count--
+				break
+			case 3:
+				global.v[1] = "0"
+				count--
+				break
+			case 4:
+				global.v[0] = "0"
+				count--
+				break
 		}
-		if count > 0
-			count--			
 		return
 	}
 	isec = int64(_n + global.v[0])
-	if count == 0{
+	if count == 2{
 		msg(isec)
 		global.v[1] = _n
 			if isec > 59{
@@ -23,13 +34,13 @@ function addtemp(_n){
 				return
 			}
 		count++
-	}else if count == 1{
+	}else if count == 3{
 		global.v[0] = _n
 		count++
-	}else if count == 2{
+	}else if count == 0{
 		global.v[3] = _n
 		count++
-	}else if count == 3{
+	}else if count == 1{
 		global.v[2] = _n
 		count++
 	}

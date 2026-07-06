@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lansel",
   "bboxMode":1,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"157554a5-8ffe-410c-9eb1-7900ccf2a34b","name":"157554a5-8ffe-410c-9eb1-7900ccf2a34b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"157554a5-8ffe-410c-9eb1-7900ccf2a34b","name":"157554a5-8ffe-410c-9eb1-7900ccf2a34b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":64.0,
+    "seqWidth":364.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
