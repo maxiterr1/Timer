@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_temptxt",
+  "%Name":"obj_v3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_temptxt",
+  "name":"obj_v3",
   "overriddenProperties":[],
   "parent":{
     "name":"Testo",

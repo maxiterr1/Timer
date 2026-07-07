@@ -1,0 +1,1 @@
+write(global.v[0])

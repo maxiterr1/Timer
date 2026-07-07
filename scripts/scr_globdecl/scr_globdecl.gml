@@ -1,4 +1,4 @@
-for (var i = 0; i <= 3; i++){
+for (var i = 0; i <= 5; i++){
 	global.v[i] = "0"
 }
 global.lan = "it"
