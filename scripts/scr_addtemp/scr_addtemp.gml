@@ -21,6 +21,7 @@ function addtemp(_n){
 				count--
 				break
 		}
+		obj_movingarrow.update_pos()
 		return
 	}
 	isec = int64(_n + global.v[0])
@@ -44,4 +45,6 @@ function addtemp(_n){
 		global.v[2] = _n
 		count++
 	}
+	obj_movingarrow.update_pos()
+	return
 }

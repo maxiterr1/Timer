@@ -72,7 +72,6 @@
     {"id":{"name":"obj_soundsimple","path":"objects/obj_soundsimple/obj_soundsimple.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_stop","path":"objects/obj_stop/obj_stop.yy",},},
-    {"id":{"name":"obj_temptxt","path":"objects/obj_temptxt/obj_temptxt.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_timeremtxt","path":"objects/obj_timeremtxt/obj_timeremtxt.yy",},},
     {"id":{"name":"obj_timertxt","path":"objects/obj_timertxt/obj_timertxt.yy",},},
